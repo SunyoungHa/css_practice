@@ -1,0 +1,49 @@
+
+.figures {
+    overflow: hidden;
+    
+}
+
+figure {
+    border: 10px black solid;
+    display: inline-block;
+    flex-flow: column;
+    margin: 20px;
+}
+
+
+img{
+    max-width: 370px;
+    max-height: 290px;
+}
+
+figcaption{
+    background-color: black;
+    color:white;
+    font: arial;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+/* media.. */
+
+@media screen and (max-width: 421px) { 
+	body {
+        background-color: white; 
+	}
+}
+
+@media screen and (min-width: 421px) and
+    (max-width: 780px) {
+    body {
+        background-color: black; 
+    }
+}
+
+@media screen and (min-width: 780px) {
+    body {
+        background-color: #CCFFCB; 
+    }
+}
+
